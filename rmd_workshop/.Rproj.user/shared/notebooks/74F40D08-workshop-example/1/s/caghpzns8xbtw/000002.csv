@@ -1,0 +1,3 @@
+"0","# Ensure that sample names in data columns are in the same order as the sameple names in the meta rows "
+"0","data_ordered <- data[ ,match(rownames(meta), colnames(data))]"
+"0","head(data)"
